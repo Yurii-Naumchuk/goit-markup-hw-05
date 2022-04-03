@@ -702,8 +702,8 @@ transition: box-shadow var(--animation);
 position: fixed;
 top: 0;
 left: 0;
-width: 100%;
-height: 100%;
+width: 100vw;
+height: 100vh;
 background-color: rgba(0, 0, 0, 0.2);
 
 opacity: 1;
@@ -726,6 +726,7 @@ pointer-events: none;
   height: 581px;
   
   background-color: #fff;
+  border-radius: 4px;
 
   opacity: 1;
   transition: opacity 250ms var(--cubic), 
